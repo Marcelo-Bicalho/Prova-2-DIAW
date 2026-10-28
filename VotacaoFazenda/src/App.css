@@ -1,0 +1,32 @@
+.grade-roca {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.grade-peoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1.5rem;
+}
+
+.card-foto, .lista-resultados img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.card {
+  position: relative;
+}
+
+.card-roca {
+  border: 4px solid var(--celeiro);
+}
+
+.barra {
+  overflow: hidden;
+}
+
+.barra-preenchida {
+  transition: width 0.3s ease;
+}
